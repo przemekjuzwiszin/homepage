@@ -1,0 +1,28 @@
+body {
+	background: #fefefe;
+}
+
+.sectionHeader {
+	color: #1460aa;
+}
+
+.diaryHeader {
+	color: #6c1285;
+	font-size: 64px;
+}
+
+.paragraph {
+	color: darkblue;
+}
+
+.pamietniczek {
+	background: hotpink
+}
+
+.header {
+	color: yellow;
+}
+
+.heading {
+	color: red;
+}
