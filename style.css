@@ -1,28 +1,25 @@
 body {
-	background: salmon;
+	background: #fefefe;
+	color: #333;
 }
 
-.sectionHeader {
+.sectionHeader, .diaryHeader {
 	color: #1460aa;
 }
 
-.diaryHeader {
-	color: #6c1285;
-	font-size: 64px;
-}
-
-.paragraph {
-	color: darkblue;
-}
-
-.pamietniczek {
-	background: hotpink
-}
 
 .header {
 	color: yellow;
 }
 
 .heading {
-	color: red;
+	color: #00487c;
+}
+
+.thirdHeader {
+color: #0496FF;
+}
+
+.link {
+color: #1A936F;
 }
