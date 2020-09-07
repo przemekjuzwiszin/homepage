@@ -14,6 +14,7 @@ body {
 
 .heading {
 	color: #00487c;
+	margin-bottom: 48px;
 }
 
 .thirdHeader {
@@ -25,6 +26,14 @@ color: #1A936F;
 }
 
 .about {
+}
+
+.paragraph {
+	padding: 16px;
+}
+
+.main {
 	width: 100%;
 	max-width: 700px;
+	margin: 32px auto;
 }
