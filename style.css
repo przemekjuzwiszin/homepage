@@ -36,6 +36,7 @@ color: #1A936F;
 	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
+	padding-top: 50px;
 }
 
 .box, .boxTest {
@@ -52,11 +53,29 @@ color: #1A936F;
 
 .box {
 	z-index: 2;
+	position: fixed;
 }
 
 .boxTest {
 	top: 30px;
 	background: blueviolet;
 	right: 55%;
-	z-index: 2222;
+}
+
+.top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	color: #1A936F;
+	text-decoration: none;
+}
+
+.navigation {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+box-sizing: border-box;
+padding: 16px;
+background: #fff;
 }
