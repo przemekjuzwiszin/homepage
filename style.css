@@ -68,3 +68,15 @@ box-sizing: border-box;
 padding: 16px;
 background: #fff;
 }
+
+.korsi {
+	width: 100%;
+	max-width: 100px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+.diary {
+	clear: both;
+}
