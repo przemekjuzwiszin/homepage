@@ -7,7 +7,6 @@ body {
 	color: #1460aa;
 }
 
-
 .header {
 	color: yellow;
 }
@@ -18,19 +17,14 @@ body {
 }
 
 .thirdHeader {
-color: #0496FF;
+	color: #0496FF;
 }
 
-.link {
-color: #1A936F;
+.navigation__link {
+	color: #1A936F;
 }
 
-.about {
-}
-
-.paragraph {
-	padding: 16px;
-}
+.paragraph {}
 
 .main {
 	width: 100%;
@@ -50,7 +44,6 @@ color: #1A936F;
 	top: 0;
 }
 
-
 .top {
 	position: fixed;
 	bottom: 10px;
@@ -60,23 +53,48 @@ color: #1A936F;
 }
 
 .navigation {
-position: fixed;
-width: 100%;
-top: 0;
-left: 0;
-box-sizing: border-box;
-padding: 16px;
-background: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 16px;
+	background: #fff;
 }
 
-.korsi {
+.diary {
+	clear: both;
+}
+
+
+
+
+
+.about {}
+
+.about__header {
+	color: #1460aa;
+}
+
+.about__link {
+	color: #1A936F;
+}
+
+.about__paragraph {
+	padding: 16px;
+	font-size: 20px;
+}
+
+
+.about__paragraph--mini {
+	font-size: 16px;
+}
+
+
+.about__picture {
 	width: 100%;
 	max-width: 100px;
 	display: block;
 	float: left;
 	margin: 0 16px 16px 0;
-}
-
-.diary {
-	clear: both;
 }
