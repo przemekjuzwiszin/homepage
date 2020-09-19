@@ -7,14 +7,6 @@ body {
 	color: #1460aa;
 }
 
-.header {
-	color: yellow;
-}
-
-.heading {
-	color: #00487c;
-	margin-bottom: 48px;
-}
 
 .thirdHeader {
 	color: #0496FF;
@@ -67,6 +59,15 @@ body {
 }
 
 
+
+.header {
+	color: yellow;
+}
+
+.header__title {
+color: #00487c;
+margin-bottom: 48px;
+}
 
 
 
