@@ -106,7 +106,7 @@ margin-bottom: 48px;
 
 .footer {}
 
-.top {
+.footer__top {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
