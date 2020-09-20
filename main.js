@@ -9,7 +9,7 @@ console.log (`Nazywam się ${name} i mam ${age} lat`);
 
 console.log('witaj przybyszu')
 
-const header__title = document.querySelector('.header__title');
+const header__title = document.querySelector('.about__paragraph--js');
 
 console.log(header__title);
 
