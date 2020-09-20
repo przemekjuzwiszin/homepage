@@ -12,3 +12,8 @@ console.log('witaj przybyszu')
 const header__title = document.querySelector('.header__title');
 
 console.log(header__title);
+
+const paragraphs = document.querySelectorAll('p');
+
+console.log(paragraphs);
+console.log(paragraphs[3]);
