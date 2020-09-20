@@ -13,6 +13,8 @@ const about = document.querySelector('.about__paragraph--js');
 
 console.log(about.innerHTML);
 
+about.innerHTML = 'Pozdro JS!';
+
 const paragraphs = document.querySelectorAll('p');
 
 console.log(paragraphs);
