@@ -9,9 +9,9 @@ console.log (`Nazywam się ${name} i mam ${age} lat`);
 
 console.log('witaj przybyszu')
 
-const header__title = document.querySelector('.about__paragraph--js');
+const about = document.querySelector('.about__paragraph--js');
 
-console.log(header__title);
+console.log(about.innerHTML);
 
 const paragraphs = document.querySelectorAll('p');
 
