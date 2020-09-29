@@ -74,11 +74,11 @@ margin-bottom: 48px;
 
 
 .about__picture {
-	width: 100%;
-	max-width: 100px;
 	display: block;
 	float: left;
+	max-width: 100px;
 	margin: 0 16px 16px 0;
+	width: 100%;
 }
 
 
