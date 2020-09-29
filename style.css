@@ -106,7 +106,9 @@ margin-bottom: 48px;
 	margin: 0;
 }
 
-.day__link {}
+.day__link {
+	color: #1A936F;
+}
 
 
 
