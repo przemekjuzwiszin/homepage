@@ -101,6 +101,10 @@ margin-bottom: 48px;
 	font-size: 20px;
 }
 
+.day__header-sunday {
+color: darkred;
+}
+
 .day__content {
 	line-height: 24px;
 	padding: 0;
