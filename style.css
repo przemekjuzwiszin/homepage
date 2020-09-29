@@ -44,14 +44,14 @@ margin-bottom: 48px;
 .about {}
 
 .about__box {
-	width: 100px;
-	height: 100px;
 	background: yellowgreen;
-	padding: 10px;
-	box-sizing: border-box;
 	border: 10px solid red;
+	box-sizing: border-box;
+	height: 100px;
+	padding: 10px;
 	position: sticky;
 	top: 0;
+	width: 100px;
 }
 
 .about__header {
