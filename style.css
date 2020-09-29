@@ -6,13 +6,13 @@ body {
 
 
 .navigation {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	box-sizing: border-box;
-	padding: 16px;
 	background: #fff;
+	box-sizing: border-box;
+	left: 0;
+	position: fixed;
+	padding: 16px;
+	top: 0;
+	width: 100%;
 }
 
 .navigation__link {
@@ -22,10 +22,10 @@ body {
 
 
 .main {
-	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
 	padding-top: 50px;
+	width: 100%;
 }
 
 
@@ -44,14 +44,14 @@ margin-bottom: 48px;
 .about {}
 
 .about__box {
-	width: 100px;
-	height: 100px;
 	background: yellowgreen;
-	padding: 10px;
-	box-sizing: border-box;
 	border: 10px solid red;
+	box-sizing: border-box;
+	height: 100px;
+	padding: 10px;
 	position: sticky;
 	top: 0;
+	width: 100px;
 }
 
 .about__header {
@@ -63,8 +63,8 @@ margin-bottom: 48px;
 }
 
 .about__paragraph {
-	padding: 16px;
 	font-size: 20px;
+	padding: 16px;
 }
 
 
@@ -74,11 +74,11 @@ margin-bottom: 48px;
 
 
 .about__picture {
-	width: 100%;
-	max-width: 100px;
 	display: block;
 	float: left;
+	max-width: 100px;
 	margin: 0 16px 16px 0;
+	width: 100%;
 }
 
 
@@ -92,24 +92,37 @@ margin-bottom: 48px;
 }
 
 .day {
+	padding: 16px;
 }
 
 .day__header {
 	color: #0496FF;
+	font-size: 20px;
+	margin: 0 0 16px;
 }
 
-.day__content {}
+.day__header-sunday {
+color: darkred;
+}
 
-.day__link {}
+.day__content {
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.day__link {
+	color: #1A936F;
+}
 
 
 
 .footer {}
 
 .footer__top {
-	position: fixed;
 	bottom: 10px;
-	right: 10px;
 	color: #1A936F;
+	position: fixed;
+	right: 10px;
 	text-decoration: none;
 }
