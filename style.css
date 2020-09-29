@@ -100,7 +100,9 @@ margin-bottom: 48px;
 	margin: 0;
 }
 
-.day__content {}
+.day__content {
+	line-height: 24px;
+}
 
 .day__link {}
 
