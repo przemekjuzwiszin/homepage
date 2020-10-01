@@ -21,3 +21,7 @@ about.innerHTML = `<strong>Nazywam</strong> się ${name} i mam ${age} lat`;
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
 console.log(paragraphs[3]);
+
+if ('javascript' != 'java') {
+    console.log('to prawda !')
+}
