@@ -26,8 +26,10 @@ if ('javascript' != 'java') {
     console.log('to prawda !');
 }
 
-if (age > 20) {
-    console.log('masz więcej niż 20 lat');
-} else {
+if (age < 20) {
     console.log('masz mniej niż 20 lat');
+} else if ((age >= 20) && (age <= 30)) {
+    console.log('masz więcej niż 20 lat ale mniej niż 30');
+} else {
+    console.log('jesteś 31+');
 }
