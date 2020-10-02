@@ -23,5 +23,11 @@ console.log(paragraphs);
 console.log(paragraphs[3]);
 
 if ('javascript' != 'java') {
-    console.log('to prawda !')
+    console.log('to prawda !');
+}
+
+if (age > 20) {
+    console.log('masz więcej niż 20 lat');
+} else {
+    console.log('masz mniej niż 20 lat');
 }
