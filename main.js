@@ -1,6 +1,5 @@
 console.log('siema');
 
-
 const name = 'Maciek Korsan';
 const age = 35;
 
@@ -58,6 +57,7 @@ if (age > 70) {
     oldIndicator = 'no 2';
 }
 console.log(oldIndicator);
+
 
 const amIOld = (age > 70) ? 'yes' : 'no';
 console.log(amIOld);
