@@ -48,3 +48,7 @@ switch (age) {
         console.log(`masz ${age} lat`);
         break;
 }
+
+
+const amIOld = (age > 70) ? 'yes' : 'no';
+console.log(amIOld);
