@@ -50,5 +50,14 @@ switch (age) {
 }
 
 
+let oldIndicator;
+
+if (age > 70) {
+    oldIndicator = 'yes 2';
+} else {
+    oldIndicator = 'no 2';
+}
+console.log(oldIndicator);
+
 const amIOld = (age > 70) ? 'yes' : 'no';
 console.log(amIOld);
