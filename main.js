@@ -71,3 +71,5 @@ function calculate(x) {
 }
 
 calculate(1);
+
+console.log(calculate(2));
