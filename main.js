@@ -61,3 +61,13 @@ console.log(oldIndicator);
 
 const amIOld = (age > 70) ? 'yes' : 'no';
 console.log(amIOld);
+
+
+
+function calculate(x) {
+    x = x + 3;
+    console.log(x);
+    return x*7
+}
+
+calculate(1);
