@@ -67,9 +67,12 @@ console.log(amIOld);
 function calculate(x) {
     x = x + 3;
     console.log(x);
-    return x*7
+    return x * 7
 }
 
 calculate(1);
 
 console.log(calculate(2));
+const myCalculation = calculate(4);
+console.log(myCalculation);
+
