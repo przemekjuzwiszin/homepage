@@ -62,7 +62,8 @@ console.log(oldIndicator);
 const amIOld = (age > 70) ? 'yes' : 'no';
 console.log(amIOld);
 
-
+const zmienna = 'hura';
+console.log(zmienna);
 
 function calculate(x) {
     x = x + 3;
