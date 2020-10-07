@@ -83,6 +83,15 @@ margin-bottom: 48px;
 
 
 
+.hobby {
+
+}
+.hobby__list {
+list-style: none;
+}
+
+
+
 .diary {
 	clear: both;
 }
