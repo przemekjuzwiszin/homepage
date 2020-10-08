@@ -9,9 +9,17 @@
 </head>
 
 <body>
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
-		<a class="navigation__link" href="podstrona.html">Podstrona</a>
+	<header class="site__header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrona.html">Podstrona</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	<main id="top" class="main">
 		<header class="header">
@@ -37,6 +45,23 @@
 			</p>
 			<p class="about__paragraph about__paragraph--mini about__paragraph--js">
 			</p>
+			<section class="hobby">
+				<ul class="hobby__list">
+					<li>nagrywanie szkolenia</li>
+					<li>dronowanie</li>
+					<li>spanie</li>
+					<li>układanie planu dnia
+						<ol>
+							<li>otwórz przeglądarkę</li>
+							<li>wpisz cotenfrontend.pl</li>
+							<li>[enter]</li>
+						</ol>
+					</li>
+				</ul>
+			</section>
+			<section class="plan">
+
+			</section>
 		</section>
 
 		<section class="diary" id="pamietniczek">
@@ -117,6 +142,41 @@
 					Może to być spryt, hołd pracy, schludność, dobrobyt.
 				</p>
 			</section>
+		</section>
+		<section class="glossary">
+			<dl>
+				<dt>CSS</dt>
+				<dd>style (to co widzisz jak jest ładne albo brzydkie)</dd>
+				<dt>HTML</dt>
+				<dd>treść + szkielet strony</dd>
+				<dt>JavaScript</dt>
+				<dt>Es6</dt>
+				<dd>rzeczy których teraz się uczę</dd>
+			</dl>
+		</section>
+		<section class="data">
+			<table class="table">
+				<caption>Oceny z I semestru z przedmiotu WTF</caption>
+				<thead>
+					<tr>
+						<th>Imię nazwisko</th>
+						<th>Ocena</th>
+						<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Maciek Korsan</td>
+						<td>3</td>
+						<td>03.04.2019</td>
+					</tr>
+					<tr>
+						<td>Uczeń Uczniowski</td>
+						<td>5</td>
+						<td>05.04.2019</td>
+					</tr>
+				</tbody>
+			</table>
 		</section>
 	</main>
 	<footer class="footer">

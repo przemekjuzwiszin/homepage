@@ -3,9 +3,7 @@ body {
 	color: #333;
 }
 
-
-
-.navigation {
+.site__header {
 	background: #fff;
 	box-sizing: border-box;
 	left: 0;
@@ -15,11 +13,20 @@ body {
 	width: 100%;
 }
 
+.navigation {}
+
+.navigation__list {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation__item {
+	display: inline;
+}
+
 .navigation__link {
 	color: #1A936F;
 }
-
-
 
 .main {
 	max-width: 700px;
@@ -28,18 +35,14 @@ body {
 	width: 100%;
 }
 
-
-
 .header {
 	color: yellow;
 }
 
 .header__title {
-color: #00487c;
-margin-bottom: 48px;
+	color: #00487c;
+	margin-bottom: 48px;
 }
-
-
 
 .about {}
 
@@ -67,11 +70,9 @@ margin-bottom: 48px;
 	padding: 16px;
 }
 
-
 .about__paragraph--mini {
 	font-size: 16px;
 }
-
 
 .about__picture {
 	display: block;
@@ -81,7 +82,12 @@ margin-bottom: 48px;
 	width: 100%;
 }
 
+.hobby {}
 
+.hobby__list {
+	list-style: none;
+	padding: 0;
+}
 
 .diary {
 	clear: both;
@@ -102,7 +108,7 @@ margin-bottom: 48px;
 }
 
 .day__header-sunday {
-color: darkred;
+	color: darkred;
 }
 
 .day__content {
@@ -114,8 +120,6 @@ color: darkred;
 .day__link {
 	color: #1A936F;
 }
-
-
 
 .footer {}
 
