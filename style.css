@@ -176,6 +176,7 @@ font-weight: bold;
 .table__tbody--title {
 	background-color: #f9c802;
 	border: 1px solid black;
+	font: caption;
 	padding: 5px;
 	text-align: center;
 }
