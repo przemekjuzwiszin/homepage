@@ -178,6 +178,7 @@ font-weight: bold;
 	background-color: #f9c802;
 	border: 1px solid black;
 	font: caption;
+	font-weight: bold;
 	padding: 5px;
 	text-align: center;
 }
