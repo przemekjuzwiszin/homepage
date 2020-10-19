@@ -142,10 +142,11 @@ body {
 }
 
 .table__caption {
-	color: #8a1c7c;
-	font-size: 25px;
+	color: #f9c802;
+	font-size: 33px;
 	font-weight: bold;
 	margin: 5px;
+	text-shadow: 2px 1px 0 #e30613;
 }
 
 .table__thead {
