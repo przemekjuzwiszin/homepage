@@ -150,7 +150,7 @@ body {
 }
 
 .table__thead {
-	background-color: #006ba6;
+	background-color: #2d2241;
 	color: navajowhite;
 }
 
@@ -167,7 +167,7 @@ body {
 .table__tbody--row {}
 
 .table__tbody--name {
-
+background-color: #e30613;
 }
 
 .table__tbody--title {
