@@ -169,6 +169,8 @@ body {
 .table__tbody--name {
 background-color: #e30613;
 border: 1px solid black;
+color: white;
+font-weight: bold;
 }
 
 .table__tbody--title {
