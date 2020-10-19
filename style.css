@@ -141,7 +141,9 @@ body {
 	width: 100%;
 }
 
-.table__caption {}
+.table__caption {
+	margin: 5px;
+}
 
 .table__thead {}
 
