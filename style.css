@@ -137,6 +137,7 @@ body {
 
 .table {
 	border: 1px solid black;
+	border-collapse: collapse;
 }
 
 .table__caption {}
@@ -145,13 +146,17 @@ body {
 
 .table__thead--row {}
 
-.table__thead--title {}
+.table__thead--title {
+	border: 1px solid black;
+}
 
 .table__tbody {}
 
 .table__tbody--row {}
 
-.table__tbody--title {}
+.table__tbody--title {
+	border: 1px solid black;
+}
 
 
 .footer {}
