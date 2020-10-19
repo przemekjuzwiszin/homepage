@@ -148,7 +148,9 @@ body {
 	margin: 5px;
 }
 
-.table__thead {}
+.table__thead {
+	background-color: #006ba6;
+}
 
 .table__thead--row {}
 
