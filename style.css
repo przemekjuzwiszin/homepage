@@ -144,6 +144,7 @@ body {
 .table__caption {
 	color: #8a1c7c;
 	font-size: 25px;
+	font-weight: bold;
 	margin: 5px;
 }
 
