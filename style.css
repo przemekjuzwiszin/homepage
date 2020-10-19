@@ -166,6 +166,10 @@ body {
 
 .table__tbody--row {}
 
+.table__tbody--name {
+	
+}
+
 .table__tbody--title {
 	border: 1px solid black;
 	padding: 5px;
