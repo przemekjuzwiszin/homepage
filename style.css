@@ -132,6 +132,26 @@ body {
 	color: #1A936F;
 }
 
+
+.data {}
+
+.table {}
+
+.table__caption {}
+
+.table__thead {}
+
+.table__thead--row {}
+
+.table__thead--title {}
+
+.table__tbody {}
+
+.table__tbody--row {}
+
+.table__tbody--title {}
+
+
 .footer {}
 
 .footer__top {
