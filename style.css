@@ -150,6 +150,7 @@ body {
 
 .table__thead {
 	background-color: #006ba6;
+	color: navajowhite;
 }
 
 .table__thead--row {}
