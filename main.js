@@ -86,7 +86,7 @@ const welcome = (myName,myAge) => {
 //welcome('Przemek', 34);
 
 
-const myName = 'Przemek';
-const myAge = 34;
+const avatar = 'Przemek';
+const old = 34;
 
-welcome(myName,myAge);
+welcome(avatar,old);
