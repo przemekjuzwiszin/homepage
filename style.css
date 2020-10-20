@@ -132,6 +132,58 @@ body {
 	color: #1A936F;
 }
 
+
+.data {}
+
+.table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table__caption {
+	color: #f9c802;
+	font-size: 33px;
+	font-weight: bold;
+	margin: 5px;
+	text-shadow: 2px 1px 0 #e30613;
+}
+
+.table__thead {
+	background-color: #2d2241;
+	color: navajowhite;
+}
+
+.table__thead--row {}
+
+.table__thead--title {
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.table__tbody {
+}
+
+.table__tbody--row {}
+
+.table__tbody--name {
+background-color: #e30613;
+border: 1px solid black;
+color: white;
+font-weight: bold;
+}
+
+.table__tbody--title {
+	background-color: #f9c802;
+	border: 1px solid black;
+	font: caption;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
+
+
 .footer {}
 
 .footer__top {
