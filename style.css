@@ -6,9 +6,6 @@ html {
 	box-sizing: inherit;
 }
 
-
-
-
 body {
 	background: #fefefe;
 	color: #333;
@@ -24,7 +21,10 @@ body {
 	width: 100%;
 }
 
-.navigation {}
+.navigation {
+	display: flex;
+	justify-content: center;
+}
 
 .navigation__list {
 	list-style: none;
@@ -37,6 +37,7 @@ body {
 
 .navigation__link {
 	color: #1A936F;
+	margin: 4px;
 }
 
 .main {
