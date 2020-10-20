@@ -78,8 +78,6 @@ const calculateFat = x => (x + 3) * 7;
 
 console.log(calculateFat(2));
 
-const myName = 'Przemek';
-const myAge = 34;
 
 const welcome = (myName,myAge) => {
     console.log(`Witaj ${myName} masz ${myAge} lata:)`);
