@@ -24,7 +24,10 @@ body {
 	width: 100%;
 }
 
-.navigation {}
+.navigation {
+	display: flex;
+	justify-content: center;
+}
 
 .navigation__list {
 	list-style: none;
