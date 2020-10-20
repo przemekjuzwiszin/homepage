@@ -83,7 +83,7 @@ const welcome = (myName,myAge) => {
     console.log(`Witaj ${myName} masz ${myAge} lata:)`);
 }
 
-welcome('Przemek', 34);
+//welcome('Przemek', 34);
 
 
 const myName = 'Przemek';
