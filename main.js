@@ -90,3 +90,4 @@ const avatar = 'Przemek';
 const old = 34;
 
 welcome(avatar,old);
+welcome('Przemek', 34);
