@@ -84,3 +84,9 @@ const welcome = (myName,myAge) => {
 }
 
 welcome('Przemek', 34);
+
+
+const myName = 'Przemek';
+const myAge = 34;
+
+welcome(myName,myAge);
