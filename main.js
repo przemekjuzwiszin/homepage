@@ -84,3 +84,5 @@ const myAge = 34;
 const welcome = (myName,myAge) => {
     console.log(`Witaj ${myName} masz ${myAge} lata:)`);
 }
+
+welcome('Przemek', 34);
