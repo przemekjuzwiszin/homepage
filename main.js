@@ -77,3 +77,17 @@ console.log(calculate(2));
 const calculateFat = x => (x + 3) * 7;
 
 console.log(calculateFat(2));
+
+
+const welcome = (myName,myAge) => {
+    console.log(`Witaj ${myName} masz ${myAge} lata:)`);
+}
+
+//welcome('Przemek', 34);
+
+
+const avatar = 'Przemek';
+const old = 34;
+
+welcome(avatar,old);
+welcome('Przemek', 34);
