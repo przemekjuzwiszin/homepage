@@ -22,11 +22,12 @@ body {
 }
 
 .navigation {
-	display: flex;
-	justify-content: center;
 }
 
 .navigation__list {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	list-style: none;
 	padding: 0;
 }
