@@ -25,7 +25,6 @@ body {
 }
 
 .navigation__list {
-	align-items: center;
 	display: flex;
 	justify-content: center;
 	list-style: none;
@@ -33,12 +32,12 @@ body {
 }
 
 .navigation__item {
-	display: inline;
+	display: block;
+	margin: 0 16px;
 }
 
 .navigation__link {
 	color: #1A936F;
-	margin: 4px;
 }
 
 .main {
