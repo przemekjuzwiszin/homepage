@@ -208,3 +208,9 @@ body {
 		color: hotpink;)
 	}
 }
+
+@media (min-width: 1000px) {
+	.main {
+		max-width: 900px;
+	}
+}
