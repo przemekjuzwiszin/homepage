@@ -191,3 +191,20 @@ body {
 	right: 10px;
 	text-decoration: none;
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 16 px;
+	grid-row-gap: 16px;
+}
+
+@media not screen and (min-width: 640px) and (max-width: 1000px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
+
+	.day__link {
+		color: hotpink;)
+	}
+}
