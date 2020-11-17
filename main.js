@@ -91,3 +91,6 @@ const old = 34;
 
 welcome(avatar,old);
 welcome('Przemek', 34);
+
+const button = document.querySelector('.header__button--js');
+console.log(button);
