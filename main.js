@@ -99,4 +99,6 @@ function handleClick() {
     console.log('halo')
 }
 
-button.addEventListener('click', handleClick);
+button.addEventListener('click', () => {
+console.log('hello arrow');
+});
