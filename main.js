@@ -94,3 +94,9 @@ welcome('Przemek', 34);
 
 const button = document.querySelector('.header__button--js');
 console.log(button);
+
+function handleClick() {
+    console.log('halo')
+}
+
+button.addEventListener('click', handleClick);
