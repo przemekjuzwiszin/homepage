@@ -106,3 +106,11 @@ if (header.classList.contains('header__title--red')) {
     console.log('brak klasy');
 }
 });
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+console.log(navigationSwitcher);
+
+navigationSwitcher.addEventListener('click', (e) => {
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible');
+})
