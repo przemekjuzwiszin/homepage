@@ -234,8 +234,14 @@ body {
 	.navigation__item {
 		margin: 16px;
 	}
+	.site__header {
+		min-height: 48px;
+	}
 	.navigation__switcher {
 		border: none;
 		background: none;
+		position: absolute;
+		right: 16px;
+		top: 16px;
 	}
 }
