@@ -223,4 +223,7 @@ body {
 	.navigation__list {
 		flex-direction: column;
 	}
+	.navigation__item {
+		margin: 16px;
+	}
 }
