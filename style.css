@@ -208,21 +208,28 @@ body {
 	.grid {
 		grid-template-columns: 1fr;
 	}
-
 	.day__link {
-		color: hotpink;)
+		color: hotpink;
+		)
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 641px) {
 	.main {
 		max-width: 900px;
+	}
+	.navigation__switcher {
+		display: none;
 	}
 }
 
 @media (max-width: 640px) {
 	.navigation__list {
+		display: none;
 		flex-direction: column;
+	}
+	.navigation__list--visible {
+		display: flex;
 	}
 	.navigation__item {
 		margin: 16px;
