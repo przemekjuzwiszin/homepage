@@ -218,3 +218,9 @@ body {
 		max-width: 900px;
 	}
 }
+
+@media (max-width: 640px) {
+	.navigation__list {
+		flex-direction: column;
+	}
+}
