@@ -56,6 +56,10 @@ body {
 	margin-bottom: 48px;
 }
 
+.header__title--red {
+	color: darkred;
+}
+
 .about {}
 
 .about__box {
