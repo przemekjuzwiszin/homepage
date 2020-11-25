@@ -20,6 +20,7 @@ body {
 	padding: 16px;
 	top: 0;
 	width: 100%;
+	z-index: 10;
 }
 
 .navigation {}
@@ -54,6 +55,10 @@ body {
 .header__title {
 	color: #00487c;
 	margin-bottom: 48px;
+}
+
+.header__title--red {
+	color: darkred;
 }
 
 .about {}
@@ -203,14 +208,39 @@ body {
 	.grid {
 		grid-template-columns: 1fr;
 	}
-
 	.day__link {
-		color: hotpink;)
+		color: hotpink;
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 641px) {
 	.main {
 		max-width: 900px;
+	}
+	.navigation__switcher {
+		display: none;
+	}
+}
+
+@media (max-width: 640px) {
+	.navigation__list {
+		display: none;
+		flex-direction: column;
+	}
+	.navigation__list--visible {
+		display: flex;
+	}
+	.navigation__item {
+		margin: 16px;
+	}
+	.site__header {
+		min-height: 48px;
+	}
+	.navigation__switcher {
+		border: none;
+		background: none;
+		position: absolute;
+		right: 16px;
+		top: 16px;
 	}
 }
