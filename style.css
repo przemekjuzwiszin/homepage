@@ -60,6 +60,7 @@ body {
 		grid-template-areas: "header"
 		"content"
 		"about";
+		grid-template-columns: 1fr;
 	}
 }
 
