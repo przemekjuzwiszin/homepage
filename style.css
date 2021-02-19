@@ -52,6 +52,7 @@ body {
   width: 100%;
   grid-template-areas: "header header"
   "about content";
+  grid-template-columns: 200px 1fr;
 }
 
 .header {
