@@ -72,6 +72,10 @@ body {
 	grid-area: about;
 }
 
+.content {
+	grid-area: content;
+}
+
 .about__box {
   background: yellowgreen;
   border: 10px solid red;
