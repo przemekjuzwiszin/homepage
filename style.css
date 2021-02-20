@@ -158,6 +158,16 @@ body {
 	border-radius: 50%;
 }
 
+.day__header::after {
+	background: red;
+	content: "";
+	display: inline-block;
+	height: 16px;
+	margin-left: 6px;
+	width: 16px;
+	border-radius: 50%;
+}
+
 .day__header-sunday {
   color: darkred;
 }
