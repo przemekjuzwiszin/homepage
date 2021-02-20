@@ -28,6 +28,10 @@ body {
 .navigation {
 }
 
+.navigation:hover {
+	background: black;
+}
+
 .navigation__list {
   display: flex;
   justify-content: center;
@@ -42,6 +46,18 @@ body {
 
 .navigation__link {
   color: #1a936f;
+}
+
+.navigation__link:visited {
+	color: #ccc;
+}
+
+.navigation__link:hover {
+	color: hotpink;
+}
+
+.focus:focus {
+	border: 3px solid red;
 }
 
 .main {
@@ -142,10 +158,42 @@ body {
   padding: 16px;
 }
 
+.day:first-child {
+	background: yellow;
+}
+
+.day:last-child {
+	background: yellow;
+}
+
+.day:not(.day--special) {
+	background: violet;
+}
+
 .day__header {
   color: #0496ff;
   font-size: 20px;
   margin: 0 0 16px;
+}
+
+.day__header::before {
+	background: yellow;
+	content: "";
+	display: inline-block;
+	height: 16px;
+	margin-right: 6px;
+	width: 16px;
+	border-radius: 50%;
+}
+
+.day__header::after {
+	background: red;
+	content: "";
+	display: inline-block;
+	height: 16px;
+	margin-left: 6px;
+	width: 16px;
+	border-radius: 50%;
 }
 
 .day__header-sunday {
@@ -229,7 +277,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 16 px;
+  grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
 
