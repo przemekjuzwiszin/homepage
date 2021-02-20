@@ -152,6 +152,7 @@ body {
 	content: " - ";
 	display: block;
 	height: 16px;
+	width: 16px;
 }
 
 .day__header-sunday {
