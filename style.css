@@ -149,10 +149,12 @@ body {
 }
 
 .day__header::before {
+	background: yellow;
 	content: " - ";
 	display: block;
 	height: 16px;
 	width: 16px;
+	border-radius: 50%;
 }
 
 .day__header-sunday {
