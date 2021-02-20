@@ -28,6 +28,10 @@ body {
 .navigation {
 }
 
+.navigation:hover {
+	background: black;
+}
+
 .navigation__list {
   display: flex;
   justify-content: center;
