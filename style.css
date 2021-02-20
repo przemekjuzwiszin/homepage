@@ -151,6 +151,7 @@ body {
 .day__header::before {
 	content: " - ";
 	display: block;
+	height: 16px;
 }
 
 .day__header-sunday {
