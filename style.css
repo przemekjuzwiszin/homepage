@@ -48,6 +48,10 @@ body {
   color: #1a936f;
 }
 
+.navigation__link:visited {
+	color: #ccc;
+}
+
 .navigation__link:hover {
 	color: hotpink;
 }
