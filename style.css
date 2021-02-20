@@ -162,6 +162,10 @@ body {
 	background: yellow;
 }
 
+.day:last-child {
+	background: yellow;
+}
+
 .day__header {
   color: #0496ff;
   font-size: 20px;
