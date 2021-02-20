@@ -150,7 +150,7 @@ body {
 
 .day__header::before {
 	background: yellow;
-	content: " - ";
+	content: "";
 	display: inline-block;
 	height: 16px;
 	width: 16px;
