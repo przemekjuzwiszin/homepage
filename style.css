@@ -148,6 +148,10 @@ body {
   margin: 0 0 16px;
 }
 
+.day__header::before {
+	content: " - ";
+}
+
 .day__header-sunday {
   color: darkred;
 }
