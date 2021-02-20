@@ -153,6 +153,7 @@ body {
 	content: "";
 	display: inline-block;
 	height: 16px;
+	margin-right: 6px;
 	width: 16px;
 	border-radius: 50%;
 }
